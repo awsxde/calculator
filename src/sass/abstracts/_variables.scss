@@ -1,0 +1,102 @@
+// COLORS
+
+// ##########################################################
+// ###################### Backgrounds #######################
+// ##########################################################
+
+// (main background)
+$color-1-bg-primary: hsl(222, 26%, 31%);
+
+// (toggle background, keypad background)
+$color-1-bg-secondary: hsl(223, 31%, 20%);
+
+// (screen background)
+$color-1-bg-tertiary: hsl(224, 36%, 15%);
+
+// ##########################################################
+
+// (main background)
+$color-2-bg-primary: hsl(0, 0%, 90%);
+
+// (toggle background, keypad background)
+$color-2-bg-secondary: hsl(0, 5%, 81%);
+
+// (screen background)
+$color-2-bg-tertiary: hsl(0, 0%, 93%);
+
+// ##########################################################
+
+// (main background)
+$color-3-bg-primary: hsl(268, 75%, 9%);
+
+// (toggle background, keypad background)
+$color-3-bg-secondary: hsl(268, 71%, 12%);
+
+// (screen background)
+$color-3-bg-tertiary: hsl(268, 71%, 12%);
+
+// ##########################################################
+// ######################### Keys ###########################
+// ##########################################################
+
+// (key background)
+$color-1-keys-primary: hsl(225, 21%, 49%);
+$color-1-keys-primary-shadow: hsl(224, 28%, 35%);
+
+// (key background, toggle)
+$color-1-keys-secondary: hsl(6, 63%, 50%);
+$color-1-keys-secondary-shadow: hsl(6, 70%, 34%);
+
+// (key background)
+$color-1-keys-tertiary: hsl(30, 25%, 89%);
+$color-1-keys-tertiary-shadow: hsl(28, 16%, 65%);
+
+// ##########################################################
+
+// (key background)
+$color-2-keys-primary: hsl(185, 42%, 37%);
+$color-2-keys-primary-shadow: hsl(185, 58%, 25%);
+
+// (key background, toggle)
+$color-2-keys-secondary: hsl(25, 98%, 40%);
+$color-2-keys-secondary-shadow: hsl(25, 99%, 27%);
+
+// (key background)
+$color-2-keys-tertiary: hsl(45, 7%, 89%);
+$color-2-keys-tertiary-shadow: hsl(35, 11%, 61%);
+
+// ##########################################################
+
+// (key background)
+$color-3-keys-primary: hsl(281, 89%, 26%);
+$color-3-keys-primary-shadow: hsl(285, 91%, 52%);
+
+// (key background, toggle)
+$color-3-keys-secondary: hsl(176, 100%, 44%);
+$color-3-keys-secondary-shadow: hsl(177, 92%, 70%);
+
+// (key background)
+$color-3-keys-tertiary: hsl(268, 47%, 21%);
+$color-3-keys-tertiary-shadow: hsl(290, 70%, 36%);
+
+// ##########################################################
+// ######################### Text ###########################
+// ##########################################################
+
+$color-1-text-primary: hsl(221, 14%, 31%);
+
+$color-1-text-secondary: hsl(0, 0%, 100%);
+
+// ##########################################################
+
+$color-2-text-primary: hsl(60, 10%, 19%);
+
+$color-2-text-secondary: hsl(0, 0%, 100%);
+
+// ##########################################################
+
+$color-3-text-primary: hsl(52, 100%, 62%);
+
+$color-3-text-secondary: hsl(198, 20%, 13%);
+
+$color-3-text-tertiary: hsl(0, 0%, 100%);

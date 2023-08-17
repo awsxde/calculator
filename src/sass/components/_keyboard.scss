@@ -1,0 +1,42 @@
+.keyboard {
+  width: 100%;
+  height: 71%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+}
+
+.keyboard__btn {
+  width: 100%;
+  font-size: 3.2rem;
+  font-weight: 700;
+  padding: 1rem 1rem 0.2rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  backface-visibility: hidden;
+}
+
+.keyboard__btn:active {
+  animation: btn-animation 1s ease-out;
+}
+
+.keyboard__btn:hover,
+.keyboard__btn:active {
+  cursor: pointer;
+}
+
+.del,
+.reset {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.reset {
+  grid-area: 5 / 1 / 6 / 3;
+}
+
+.equal {
+  grid-area: 5 / 3 / 6 / 5;
+}

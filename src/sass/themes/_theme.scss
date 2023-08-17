@@ -1,0 +1,209 @@
+.theme-1 {
+  .info {
+    color: $color-1-text-secondary;
+
+    &__toggle {
+      .toggle {
+        background-color: $color-1-bg-secondary;
+
+        &__btn {
+          color: $color-1-text-secondary;
+          background-color: transparent;
+
+          &.active {
+            border: 0.15rem solid $color-1-keys-secondary-shadow;
+            background-color: $color-1-keys-secondary;
+
+            &:hover,
+            &:active {
+              background-color: lighten($color-1-keys-secondary, 10%);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  input {
+    color: $color-1-text-secondary;
+    background-color: $color-1-bg-tertiary;
+  }
+
+  .keyboard {
+    background-color: $color-1-bg-secondary;
+
+    &__btn {
+      color: $color-1-text-primary;
+      background-color: $color-1-keys-tertiary;
+      box-shadow: 0 0.3rem 0.1rem 0 $color-1-keys-tertiary-shadow;
+
+      &:hover,
+      &:active {
+        background-color: lighten($color-1-keys-tertiary, 10%);
+      }
+    }
+
+    .equal {
+      color: $color-1-text-secondary;
+      background-color: $color-1-keys-secondary;
+      box-shadow: 0 0.3rem 0.1rem 0 $color-1-keys-secondary-shadow;
+
+      &:hover,
+      &:active {
+        background-color: lighten($color-1-keys-secondary, 10%);
+      }
+    }
+
+    .del,
+    .reset {
+      color: $color-1-text-secondary;
+      background-color: $color-1-keys-primary;
+      box-shadow: 0 0.3rem 0.1rem 0 $color-1-keys-primary-shadow;
+
+      &:hover,
+      &:active {
+        background-color: lighten($color-1-keys-primary, 10%);
+      }
+    }
+  }
+}
+
+.theme-2 {
+  .info {
+    color: $color-2-text-primary;
+
+    &__toggle {
+      .toggle {
+        background-color: $color-2-bg-secondary;
+
+        &__btn {
+          color: $color-2-text-primary;
+          background-color: transparent;
+
+          &.active {
+            border: 0.15rem solid $color-2-keys-secondary-shadow;
+            background-color: $color-2-keys-secondary;
+
+            &:hover,
+            &:active {
+              background-color: lighten($color-2-keys-secondary, 10%);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  input {
+    color: $color-2-text-primary;
+    background-color: $color-2-bg-tertiary;
+  }
+
+  .keyboard {
+    background-color: $color-2-bg-secondary;
+
+    &__btn {
+      color: $color-2-text-primary;
+      background-color: $color-2-keys-tertiary;
+      box-shadow: 0 0.3rem 0.1rem 0 $color-2-keys-tertiary-shadow;
+
+      &:hover,
+      &:active {
+        background-color: lighten($color-2-keys-tertiary, 10%);
+      }
+    }
+
+    .equal {
+      color: $color-2-text-secondary;
+      background-color: $color-2-keys-secondary;
+      box-shadow: 0 0.3rem 0.1rem 0 $color-2-keys-secondary-shadow;
+
+      &:hover,
+      &:active {
+        background-color: lighten($color-2-keys-secondary, 10%);
+      }
+    }
+
+    .del,
+    .reset {
+      color: $color-2-text-secondary;
+      background-color: $color-2-keys-primary;
+      box-shadow: 0 0.3rem 0.1rem 0 $color-2-keys-primary-shadow;
+
+      &:hover,
+      &:active {
+        background-color: lighten($color-2-keys-primary, 10%);
+      }
+    }
+  }
+}
+
+.theme-3 {
+  .info {
+    color: $color-3-text-primary;
+
+    &__toggle {
+      .toggle {
+        background-color: $color-3-bg-secondary;
+
+        &__btn {
+          color: $color-3-text-primary;
+          background-color: transparent;
+
+          &.active {
+            border: 0.15rem solid $color-3-keys-secondary-shadow;
+            background-color: $color-3-keys-secondary;
+
+            &:hover,
+            &:active {
+              background-color: lighten($color-3-keys-secondary, 10%);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  input {
+    color: $color-3-text-primary;
+    background-color: $color-3-bg-tertiary;
+  }
+
+  .keyboard {
+    background-color: $color-3-bg-secondary;
+
+    &__btn {
+      color: $color-3-text-primary;
+      background-color: $color-3-keys-tertiary;
+      box-shadow: 0 0.3rem 0.1rem 0 $color-3-keys-tertiary-shadow;
+
+      &:hover,
+      &:active {
+        background-color: lighten($color-3-keys-tertiary, 10%);
+      }
+    }
+
+    .equal {
+      color: $color-3-text-secondary;
+      background-color: $color-3-keys-secondary;
+      box-shadow: 0 0.3rem 0.1rem 0 $color-3-keys-secondary-shadow;
+
+      &:hover,
+      &:active {
+        background-color: lighten($color-3-keys-secondary, 10%);
+      }
+    }
+
+    .del,
+    .reset {
+      color: $color-3-text-tertiary;
+      background-color: $color-3-keys-primary;
+      box-shadow: 0 0.3rem 0.1rem 0 $color-3-keys-primary-shadow;
+
+      &:hover,
+      &:active {
+        background-color: lighten($color-3-keys-primary, 10%);
+      }
+    }
+  }
+}

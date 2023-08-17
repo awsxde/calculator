@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+@-webkit-keyframes btn-animation {
+  0% {
+    -webkit-transform: translateY(0.3rem);
+    transform: translateY(0.3rem);
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  100% {
+    -webkit-transform: translateY(0rem);
+    transform: translateY(0rem);
+    -webkit-box-shadow: 0 0.3rem 0.1rem 0 currentColor;
+    box-shadow: 0 0.3rem 0.1rem 0 currentColor; } }
+
+@keyframes btn-animation {
+  0% {
+    -webkit-transform: translateY(0.3rem);
+    transform: translateY(0.3rem);
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  100% {
+    -webkit-transform: translateY(0rem);
+    transform: translateY(0rem);
+    -webkit-box-shadow: 0 0.3rem 0.1rem 0 currentColor;
+    box-shadow: 0 0.3rem 0.1rem 0 currentColor; } }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+*:focus {
+  outline: none; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  height: 100vh;
+  box-sizing: border-box; }
+
+body {
+  font-family: "League Spartan"; }
+  body input,
+  body button {
+    font-family: inherit; }
+
+.info {
+  width: 100%;
+  height: 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1rem 0 0.2rem 0; }
+
+.info__name {
+  font-size: 2.5rem; }
+
+.info__toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem; }
+
+.info__toggle p {
+  letter-spacing: 0.1rem;
+  text-transform: uppercase; }
+
+.toggle {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-radius: 2.5rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+.toggle__btn {
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin: 0.5rem;
+  border: 0px solid transparent;
+  border-radius: 2.5rem;
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.toggle__btn span {
+  position: absolute;
+  top: -110%; }
+
+.toggle__btn.active {
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
+
+.toggle__btn.active span {
+  top: -2.26rem; }
+
+.input {
+  width: 100%;
+  height: 17%;
+  font-size: 4rem;
+  font-weight: 700;
+  text-indent: 3rem;
+  margin-bottom: 2rem;
+  padding: 1rem 0rem 0.2rem 0rem;
+  border: none;
+  border-radius: 1rem; }
+
+.keyboard {
+  width: 100%;
+  height: 71%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 3rem 2rem;
+  border-radius: 1rem; }
+
+.keyboard__btn {
+  width: 100%;
+  font-size: 3.2rem;
+  font-weight: 700;
+  padding: 1rem 1rem 0.2rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  backface-visibility: hidden; }
+
+.keyboard__btn:active {
+  animation: btn-animation 1s ease-out; }
+
+.keyboard__btn:hover,
+.keyboard__btn:active {
+  cursor: pointer; }
+
+.del,
+.reset {
+  font-size: 2.5rem;
+  text-transform: uppercase; }
+
+.reset {
+  grid-area: 5 / 1 / 6 / 3; }
+
+.equal {
+  grid-area: 5 / 3 / 6 / 5; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  body .container {
+    width: 35vw;
+    height: 90vh; }
+
+.theme-1 .info {
+  color: white; }
+  .theme-1 .info__toggle .toggle {
+    background-color: #232c43; }
+    .theme-1 .info__toggle .toggle__btn {
+      color: white;
+      background-color: transparent; }
+      .theme-1 .info__toggle .toggle__btn.active {
+        border: 0.15rem solid #93261a;
+        background-color: #d03f2f; }
+        .theme-1 .info__toggle .toggle__btn.active:hover, .theme-1 .info__toggle .toggle__btn.active:active {
+          background-color: #d96659; }
+
+.theme-1 input {
+  color: white;
+  background-color: #182034; }
+
+.theme-1 .keyboard {
+  background-color: #232c43; }
+  .theme-1 .keyboard__btn {
+    color: #444b5a;
+    background-color: #eae3dc;
+    box-shadow: 0 0.3rem 0.1rem 0 #b4a597; }
+    .theme-1 .keyboard__btn:hover, .theme-1 .keyboard__btn:active {
+      background-color: #fdfcfc; }
+  .theme-1 .keyboard .equal {
+    color: white;
+    background-color: #d03f2f;
+    box-shadow: 0 0.3rem 0.1rem 0 #93261a; }
+    .theme-1 .keyboard .equal:hover, .theme-1 .keyboard .equal:active {
+      background-color: #d96659; }
+  .theme-1 .keyboard .del,
+  .theme-1 .keyboard .reset {
+    color: white;
+    background-color: #637097;
+    box-shadow: 0 0.3rem 0.1rem 0 #404e72; }
+    .theme-1 .keyboard .del:hover, .theme-1 .keyboard .del:active,
+    .theme-1 .keyboard .reset:hover,
+    .theme-1 .keyboard .reset:active {
+      background-color: #808bac; }
+
+.theme-2 .info {
+  color: #35352c; }
+  .theme-2 .info__toggle .toggle {
+    background-color: #d1cccc; }
+    .theme-2 .info__toggle .toggle__btn {
+      color: #35352c;
+      background-color: transparent; }
+      .theme-2 .info__toggle .toggle__btn.active {
+        border: 0.15rem solid #893901;
+        background-color: #ca5502; }
+        .theme-2 .info__toggle .toggle__btn.active:hover, .theme-2 .info__toggle .toggle__btn.active:active {
+          background-color: #fc6b03; }
+
+.theme-2 input {
+  color: #35352c;
+  background-color: #ededed; }
+
+.theme-2 .keyboard {
+  background-color: #d1cccc; }
+  .theme-2 .keyboard__btn {
+    color: #35352c;
+    background-color: #e5e4e1;
+    box-shadow: 0 0.3rem 0.1rem 0 #a69d91; }
+    .theme-2 .keyboard__btn:hover, .theme-2 .keyboard__btn:active {
+      background-color: #fdfdfc; }
+  .theme-2 .keyboard .equal {
+    color: white;
+    background-color: #ca5502;
+    box-shadow: 0 0.3rem 0.1rem 0 #893901; }
+    .theme-2 .keyboard .equal:hover, .theme-2 .keyboard .equal:active {
+      background-color: #fc6b03; }
+  .theme-2 .keyboard .del,
+  .theme-2 .keyboard .reset {
+    color: white;
+    background-color: #377f86;
+    box-shadow: 0 0.3rem 0.1rem 0 #1b5f65; }
+    .theme-2 .keyboard .del:hover, .theme-2 .keyboard .del:active,
+    .theme-2 .keyboard .reset:hover,
+    .theme-2 .keyboard .reset:active {
+      background-color: #46a2aa; }
+
+.theme-3 .info {
+  color: #ffe53d; }
+  .theme-3 .info__toggle .toggle {
+    background-color: #1d0934; }
+    .theme-3 .info__toggle .toggle__btn {
+      color: #ffe53d;
+      background-color: transparent; }
+      .theme-3 .info__toggle .toggle__btn.active {
+        border: 0.15rem solid #6cf9f2;
+        background-color: #00e0d1; }
+        .theme-3 .info__toggle .toggle__btn.active:hover, .theme-3 .info__toggle .toggle__btn.active:active {
+          background-color: #14ffef; }
+
+.theme-3 input {
+  color: #ffe53d;
+  background-color: #1d0934; }
+
+.theme-3 .keyboard {
+  background-color: #1d0934; }
+  .theme-3 .keyboard__btn {
+    color: #ffe53d;
+    background-color: #341c4f;
+    box-shadow: 0 0.3rem 0.1rem 0 #871c9c; }
+    .theme-3 .keyboard__btn:hover, .theme-3 .keyboard__btn:active {
+      background-color: #4d2a74; }
+  .theme-3 .keyboard .equal {
+    color: #1b2428;
+    background-color: #00e0d1;
+    box-shadow: 0 0.3rem 0.1rem 0 #6cf9f2; }
+    .theme-3 .keyboard .equal:hover, .theme-3 .keyboard .equal:active {
+      background-color: #14ffef; }
+  .theme-3 .keyboard .del,
+  .theme-3 .keyboard .reset {
+    color: white;
+    background-color: #58077d;
+    box-shadow: 0 0.3rem 0.1rem 0 #bc15f4; }
+    .theme-3 .keyboard .del:hover, .theme-3 .keyboard .del:active,
+    .theme-3 .keyboard .reset:hover,
+    .theme-3 .keyboard .reset:active {
+      background-color: #7a0aae; }

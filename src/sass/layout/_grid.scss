@@ -1,0 +1,8 @@
+body {
+  @include centerFlex(center);
+
+  .container {
+    width: 35vw;
+    height: 90vh;
+  }
+}
